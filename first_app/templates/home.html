@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <a href="/"> <h1> Home </h1> </a>
+    <a href="/first_app/"> <h1> Home/first app </h1> </a>
+    <a href="/first_app/contact/"> <h1> Home/Contact </h1> </a>
+    <a href="/first_app/about/"> <h1> Home/About </h1> </a>
+    <h1> This is first app </h1>
+
+    <h1>This is from home in first app</h1>
+    <h2>Author: {{author}}</h2>
+    <h2>age: {{age}}</h2>
+    
+    <h2>{{ list | join:" " }}</h2>
+
+    <h2>{{ birthday|date:"D d M Y" }}</h2>
+
+    <h2> {{ list | length }}</h2>
+
+    <h2> {{ 5 | add:"2" }}</h2>
+    <h2> {{ val| addslashes }}</h2>
+    <h2> {{ val | capfirst }}</h2>
+    <h2> "{{ val | center:"15" }}</h2>
+    <h2> {{ val | cut:" " }}</h2>
+    <h2> {{ '' | default:"nothing" }}</h2>
+    <h2> {{ courses | dictsort:"fee" }}</h2>
+    <h2> {{ age | divisibleby:"3" }}</h2>
+    <h2> {{ 12345 | filesizeformat }}</h2>
+    <h2> {{ list | first }}</h2>
+    <h2> {{ list | last }}</h2>
+    <h2> {{ val | lower }}</h2>
+    <h2> {{ val | make_list }}</h2>
+    <h2> {{ list | random }}</h2>
+    <h2> {{ list | slice:"2" }}</h2>
+    <h2> {{ val | slugify }}</h2>
+    <h2> {{ times | time:"H:i" }}</h2>
+    <h2> {{ 'my First post' | title }}</h2>
+
+    <ul>
+        {{ list | unordered_list }}
+    </ul>
+
+    <h2>{{ val | upper }}</h2>
+    <h2>{{ val | wordcount }}</h2>
+    <h2>{{ val | truncatewords:1 }}</h2>
+
+    
+    
+
+
+    
+    
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+</body>
+</html>
